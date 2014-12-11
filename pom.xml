@@ -48,16 +48,16 @@
     </scm>
 
     <dependencies>
-        <!--<dependency>
+        <dependency>
             <groupId>org.webjars</groupId>
-            <artifactId>intl-js</artifactId>
+            <artifactId>Intl.js</artifactId>
             <version>0.1.4</version>
-        </dependency>-->
-        <!--<dependency>
+        </dependency>
+        <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>react</artifactId>
-            <version>0.12.2</version>
-        </dependency>-->
+            <version>0.12.1</version>
+        </dependency>
     </dependencies>
 
     <build>
