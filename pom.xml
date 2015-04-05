@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>react-intl</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>React Intl</name>
     <description>WebJar package of Yahoo!'s internationalization React mixin.</description>
     <url>http://webjars.org</url>
@@ -91,17 +91,6 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/react-intl-${upstream.version}">
-                                        <exclude name=".npmignore" />
-                                        <exclude name=".travis.yml" />
-                                        <exclude name="Gruntfile.js" />
-                                        <exclude name="bower.json" />
-                                        <exclude name="dist/**" />
-                                        <exclude name="example/**"/>
-                                        <exclude name="index.js" />
-                                        <exclude name="package.json" />
-                                        <exclude name="tests/**"/>
-                                    </fileset>
                                     <fileset dir="${project.build.directory}/react-intl-${upstream.version}/dist" />
                                 </move>
                             </target>
