@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>react-intl</artifactId>
-    <version>1.1.0-1</version>
+    <version>1.1.0-2-SNAPSHOT</version>
     <name>React Intl</name>
     <description>WebJar package of Yahoo!'s internationalization React mixin.</description>
     <url>http://webjars.org</url>
@@ -52,7 +52,7 @@
         <url>http://github.com/webjars/react-intl</url>
         <connection>scm:git:https://github.com/webjars/react-intl.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/react-intl.git</developerConnection>
-        <tag>react-intl-1.1.0-1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
