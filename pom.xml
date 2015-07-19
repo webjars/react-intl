@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>react-intl</artifactId>
-    <version>1.1.0-1-SNAPSHOT</version>
+    <version>1.1.0-1</version>
     <name>React Intl</name>
     <description>WebJar package of Yahoo!'s internationalization React mixin.</description>
     <url>http://webjars.org</url>
@@ -52,7 +52,7 @@
         <url>http://github.com/webjars/react-intl</url>
         <connection>scm:git:https://github.com/webjars/react-intl.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/react-intl.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>react-intl-1.1.0-1</tag>
     </scm>
 
     <dependencies>
@@ -95,11 +95,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="unzip binary archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <echo message="unzip binary archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/react-intl-${upstream.version}/dist"/>
+                                    <fileset dir="${project.build.directory}/react-intl-${upstream.version}/dist" />
                                 </move>
                             </target>
                         </configuration>
